@@ -1,0 +1,70 @@
+.ok{
+  color:rgb(4, 8, 36);
+  font-style:inherit;
+  font-size:40px;
+}
+.bgf{
+  border:ridge;
+  background-color:rgb(143, 193, 224);
+}
+.card-img-top{
+  height:500px;
+  width:1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text{
+  margin-left:70px;
+  margin-top: 30px;
+}
+
+.a{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.hea{
+  margin-top: 10px;
+  font-size:50px;
+}
+.box{
+  background-color:rgba(137, 244, 250, 0.404);
+  margin-top: 30px;
+  margin-right: 430px;
+  margin-bottom: 160px;
+  margin-left:430px;
+  font-size: large;
+  font-weight: bold;
+}
+.onc{
+  margin-top: 30px;
+  font-size: 30px;
+  margin-left:430px;
+}
+.try{
+  margin-left:450px;
+}
+.carousel {
+  background: #FAFAFA;
+}
+
+.carousel-cell {
+  width: 50%;
+  height: 300px;
+  background: rgb(241, 245, 246);
+}
+
+.carousel-cell-image {
+  display: block;
+  max-height: 100%;
+  margin:0px;
+  max-width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s;
+          transition: opacity 0.4s;
+}
+
+/* fade in lazy loaded image */
+.carousel-cell-image.flickity-lazyloaded,
+.carousel-cell-image.flickity-lazyerror {
+  opacity: 1;
+}
