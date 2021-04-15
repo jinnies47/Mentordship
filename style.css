@@ -43,32 +43,31 @@ body{
   margin-left:30%;
 }
 .try{
-  margin-top: 4%;
-  margin-left:37%;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font: bolder;
 }
-.carousel {
-  background: #FAFAFA;
+.testimonial {
+  background-color: rgba(207, 207, 207, 0.445);
+  text-align: center;
+  border-radius:16px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-
-.carousel-cell {
-  width:66%;
-  height: 300px;
-  margin-right: 0;
-  background:rgba(39, 215, 224, 0.349);;
+.person {
+  border-style: dotted dotted dotted dotted;
+  border-color: darkblue;
+  border-width: thick;
 }
-
-.carousel-cell-image {
-  display:block;
-  max-height:100%;
-  margin:0 auto;
-  max-width:100%;
-  opacity: 0;
-  -webkit-transition: opacity 0.4s;
-          transition: opacity 0.4s;
+.profile img {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%
 }
-
-/* fade in lazy loaded image */
-.carousel-cell-image.flickity-lazyloaded,
-.carousel-cell-image.flickity-lazyerror {
-  opacity: 1;
+.rowPerson {
+  padding-bottom: 53px
+}
+.bgfi{
+  background-color: rgba(207, 207, 207, 0.445);
 }
