@@ -3,61 +3,65 @@
   font-style:inherit;
   font-size:40px;
 }
+body{
+  background-color:rgba(143,190, 219);
+}
 .bgf{
-  border:ridge;
-  background-color:rgb(143, 193, 224);
+  background-color: rgb(143, 190, 219);
 }
 .card-img-top{
-  height:500px;
-  width:1250px;
+  height:fit-content;
+  width: fit-content;
   margin-left: auto;
   margin-right: auto;
 }
-.text{
-  margin-left:70px;
-  margin-top: 30px;
+.card-img-overlay{
+  margin-left:21%;
+  margin-right: auto;
 }
-
+.hea{
+  font-size: 50px;
+  font-weight: bold;
+}
 .a{
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.hea{
-  margin-top: 10px;
-  font-size:50px;
-}
 .box{
-  background-color:rgba(137, 244, 250, 0.404);
+  background-color:rgba(39, 215, 224, 0.349);
   margin-top: 30px;
-  margin-right: 430px;
-  margin-bottom: 160px;
-  margin-left:430px;
+  margin-right:30%;
+  margin-bottom:auto;
+  margin-left:30%;
   font-size: large;
   font-weight: bold;
 }
 .onc{
-  margin-top: 30px;
+  margin-top: 8%;
   font-size: 30px;
-  margin-left:430px;
+  font-weight: bold;
+  margin-left:30%;
 }
 .try{
-  margin-left:450px;
+  margin-top: 4%;
+  margin-left:37%;
 }
 .carousel {
   background: #FAFAFA;
 }
 
 .carousel-cell {
-  width: 50%;
+  width:66%;
   height: 300px;
-  background: rgb(241, 245, 246);
+  margin-right: 0;
+  background:rgba(39, 215, 224, 0.349);;
 }
 
 .carousel-cell-image {
-  display: block;
-  max-height: 100%;
-  margin:0px;
-  max-width: 100%;
+  display:block;
+  max-height:100%;
+  margin:0 auto;
+  max-width:100%;
   opacity: 0;
   -webkit-transition: opacity 0.4s;
           transition: opacity 0.4s;
